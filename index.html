@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Installasi Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>Mari Travel</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+
+        <nav class="navbar bg-light text-dark navbar-expand-lg fixed-top py-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">Mari Travel</a>
+
+                <button 
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-item">
+                            <a href="#promo" class="nav-link">Promo</a></li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            </nav>
+
+
+            <!-- Header -->
+            <section class="header text-center text-sm-start bg-light text-dark pt-5 pb-lg-0">
+                 <!-- Container di BootStrap akan memberikan batas di kiri dan kanan -->
+
+                <div class="container">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <h1><span class="text-primary">Mari</span> Jalan-jalan,<span class="text-primary">Mari</span> Travel</h1>
+                            <p class="lead">Yuk kita jalan, melepas penat, mengisi hari bersama teman-teman. Jadi let's goo atuu</p>
+
+                            <button class="btn btn-primary btn-lg">
+                                Yuk Berangkat!!
+                            </button>
+                        </div>
+
+                        <img 
+                            class="img-fluid w-50 d-none d-sm-block" 
+                            src="images/header.svg" 
+                            alt="travelling"
+                            
+                            >
+                     </div>
+                </div>
+
+            </section>
+       
+            <!-- Services -->
+            <section class="p-5" id="services">
+                <div class="container">
+                    <div class="row text-center g-4" >
+                        <div class="col-md"><div class="card bg-light text-dark border">
+                            <img src="images/park.svg" class="p-2 card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Wisata</h5>
+                              <p class="card-text">Kunjungi wisata terbaik di lingkungan anda dengan harga yang terjangkau</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div></div>
+                        <div class="col-md"><div class="card bg-info text-light border-0" >
+                            <img src="images/pswt.svg" class="p-2 card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ticket</h5>
+                              <p class="card-text">Kami dapat membantu anda untuk mendapatkan ticket perjalanan termurah dan ternyaman.</p>
+                              <a href="#" class="btn btn-secondary">Order Ticket</a>
+                            </div>
+                          </div></div>
+                        <div class="col-md"><div class="card bg-light text-dark border" >
+                            <img src="images/hotel.svg" class="p-2 card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Penginapan</h5>
+                              <p class="card-text">Menginap di tempat nyaman dengan akses yang mudah ke tempat wisata sekitarnya.</p>
+                              <a href="#" class="btn btn-primary">Booking Hotel</a>
+                            </div>
+                          </div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Promo -->
+            <section class="bg-primary text-light p-5" id="promo">
+                <div class="container">
+                    <div class="d-md-flex justify-content-between align-content-center">
+                        <h3>Dapatkan Promo Menarik</h3>
+                    
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Masukkan email Anda">
+                            <button class="btn btn-dark btn-light" type="button">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Contact Us -->
+            <section class="p-5" id="contact">
+                <div class="container">
+                    <div class="row g-4 align-content-center">
+                        <div class="col-md w-50">
+                            <h2 class="text-center mb-4">
+                                Contact Us
+                            </h2>
+                            <ul class="list-group list-group-flush lead">
+                                <li class="list-group-item">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span class="fw-bold">Location: 
+                                    </span>
+                                    <br>
+                                    Asrama Kodam
+                                </li>
+
+                                <li class="list-group-item ">
+                                    <i class="bi bi-telephone"></i>
+                                    <span class="fw-bold">Phone: </span>
+                                    <br>
+                                    (+62) 821 1793 4065
+                                </li>
+
+                                <li class="list-group-item">
+                                    <i class="bi bi-instagram"></i>
+                                    <span class="fw-bold">Instagram: 
+                                    </span>
+                                    <br>
+                                    Perjalanan_2004
+                                </li>
+
+                                <li class="list-group-item ">
+                                    <i class="bi bi-envelope"></i>
+                                    <span class="fw-bold">E-Mail: </span>
+                                    <br>
+                                    wahhabawaludin13@mail.com
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                        <div class="col-md">
+                            <img 
+                                class="img-fluid d-none d-lg-block" 
+                                src="images/contact.svg" 
+                                alt="contact">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <footer class="p-5 bg-dark text-white text-center position-relative">
+                <div class="container">
+                    <p class="lead">Copyright &copy; 2024</p>
+
+                    <a href="" class="position-absolute bottom-0 end-0 p-5">
+                        <i class="bi bi-arrow-up-circle h1"></i>
+                    </a>
+                </div>
+
+            </footer>
+        
+
+
+
+        
+        <!-- Installasi Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    </body>
+            
+    
+    
+
+
+
+
+</html>
